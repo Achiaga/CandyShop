@@ -1,0 +1,103 @@
+body{
+    background: #f5d9d5;
+    font-family: "Nunito";
+}
+.blurb h2{
+    color: rgb(134, 62, 134);
+    font-size: 3rem;
+    font-weight: 100;
+    /* text-decoration: underline;
+    text-decoration-color: white; */
+}
+
+.blurn h2{
+    color: rgb(48, 248, 238);
+    font-size: 3rem;
+    font-weight: 100;
+    /* text-decoration: underline;
+    text-decoration-color: white; */
+}
+
+.blurt h2{
+    color: rgb(110, 42, 3);
+    font-size: 3rem;
+    font-weight: 100;
+    /* text-decoration: underline;
+    text-decoration-color: white; */
+}
+.blurb p{
+    color: #f498b8;
+}
+
+.blurn p{
+    color: #f498b8;
+}
+
+.blurt p{
+    color: #f498b8;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+#mainNavbar .navbar-brand{
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand:hover{
+    color: white;
+    background-color: #EA1C2C;
+}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #EA1C2C;
+
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#headingGroup{
+    color: black;
+}
+
+#headingGroup span{
+    color: #EA1C2C;
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#candyIcon{
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    color: white;
+}
+
+@media (max-width: 1250px) {
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 930px) {
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
+.navbar.scrolled{
+    background-color: rgb(222, 192, 222);
+    transition: background 500ms;
+}
